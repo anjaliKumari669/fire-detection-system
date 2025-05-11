@@ -69,22 +69,24 @@ yolo task=detect mode=predict model=best.pt conf=0.25 source=fire3.mp4 save=True
 * Output is saved in `/runs/predict/`.
 
 ### Confusion Matrix:
-![Confusion Matrix](assets/confusion_matrix.png)
+<img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="300" />
 
 ### Training Curves:
-![Training Results](assets/results.png)
+<img src="assets/results.png" alt="Training curves" width="700" height="500" />
+<div style="display: flex; justify-content: space-between;">
+   <img src="assets/P_curve.png" alt="Training curves" width="400" />
+   <img src="assets/R_curve.png" alt="Training curves" width="400" />
+</div>
+
+
 ### Sample Output:
 
-## Sample Output
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/train_batch0.jpg" alt="Sample Output 1" width="300" />
+  <img src="assets/train_batch1.jpg" alt="Sample Output 2" width="300" />
+  <img src="assets/train_batch81.jpg" alt="Sample Output 3" width="300" />
+</div>
 
-### Image 1
-![Sample Output 1](assets/train_batch0.jpg)
-
-### Image 2
-![Sample Output 2](assets/train_batch1.jpg)
-
-### Image 3
-![Sample Output 3](assets/train_batch81.jpg)
 
 
 ## 🎥 Demo
