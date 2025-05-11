@@ -51,11 +51,7 @@ from ultralytics import YOLO
 
 Training results such as loss curves and mAP scores are shown below:
 
-### Confusion Matrix:
-![Confusion Matrix](https://github.com/anjaliKumari669/fire-detection-system/raw/main/assets/confusion_matrix.png)
 
-### Training Curves:
-![Training Results](https://github.com/anjaliKumari669/fire-detection-system/raw/main/assets/results.png)
 
 
 
@@ -72,6 +68,11 @@ yolo task=detect mode=predict model=best.pt conf=0.25 source=fire3.mp4 save=True
 * `source` can be a video file or image folder.
 * Output is saved in `/runs/predict/`.
 
+### Confusion Matrix:
+![Confusion Matrix](assets/confusion_matrix.png)
+
+### Training Curves:
+![Training Results](assets/results.png)
 ### Sample Output:
 
 ![Sample Output](runs/detect/train/val_batch0_pred.jpg)
