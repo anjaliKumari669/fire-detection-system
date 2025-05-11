@@ -47,20 +47,18 @@ from ultralytics import YOLO
 !yolo task=detect mode=train model=yolov8n.pt data=/content/drive/MyDrive/archive/data.yaml epochs=15 imgsz=640
 
 
-## Evaluation
+##  Evaluation
 
 Training results such as loss curves and mAP scores are shown below:
 
-###  Training Curves:
-![Training Results](C:\Users\anjal\Downloads\F1_curve.png)
+### Training Curves:
+![Training Results](runs/detect/train/results.png)
 
 ###  Confusion Matrix:
 ![Confusion Matrix](runs/detect/train/confusion_matrix.png)
 
 
-### Confusion Matrix:
 
-![Confusion Matrix](runs/detect/train/confusion_matrix.png)
 
 ## 🧪 Inference
 
