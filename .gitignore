@@ -14,3 +14,26 @@ env/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ultralytics YOLO (common model-related files)
+best.pt
+*.pt
+*.weights
+runs/
+
+# Google Colab specific
+*.ipynb_checkpoints
+*.colab/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Model weights (e.g., YOLO models or other trained models)
+weights/
+models/
+
+# Cache or temporary files
+.cache/
