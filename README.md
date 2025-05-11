@@ -75,7 +75,8 @@ yolo task=detect mode=predict model=best.pt conf=0.25 source=fire3.mp4 save=True
 ![Training Results](assets/results.png)
 ### Sample Output:
 
-![Sample Output](runs/detect/train/val_batch0_pred.jpg)
+![Sample Output]
+(assets/train_batch0.jpg) (assets/train_batch1.jpg) (assets/train_batch81.jpg)
 
 ## 🎥 Demo
 
