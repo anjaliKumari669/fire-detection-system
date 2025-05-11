@@ -1,0 +1,16 @@
+# PyCharm specific
+.idea/
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Virtual environment
+.venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
