@@ -52,9 +52,9 @@ from ultralytics import YOLO
 Training results such as loss curves and mAP scores are shown below:
 
 ### Confusion Matrix:
-![Confusion Matrix](assets/confusion_matrix.png)
+[Confusion Matrix]("assets/confusion_matrix.png")
 ### Training Curves:
-![Training Results](assets/results.png)
+![Training Results]("assets/results.png")
 
 
 
