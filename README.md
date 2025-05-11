@@ -87,6 +87,8 @@ yolo task=detect mode=predict model=best.pt conf=0.25 source=fire3.mp4 save=True
   <img src="assets/train_batch81.jpg" alt="Sample Output 3" width="300" />
 </div>
 
+### Fire Detection Demo Video:
+![Fire Detection Demo](assets/video1.mp4)
 
 
 ## 🎥 Demo
